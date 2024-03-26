@@ -268,18 +268,18 @@
             </tr>
 
             
-            <tr  onmouseout="meta_ens_start()" onmouseover="meta_ens_start()">
+            <tr  onmouseout="de_darts_start()" onmouseover="de_darts_start()">
               <td width="25%">
                 <div class="one">
-                <div class="two" id = 'meta_ens_image'><img src='images/meta_ens.png' width="160" height="160"></div>
-                <img src='images/meta_ens.png' width="160" height="160" style="z-index:-1">
+                <div class="two" id = 'de_darts_image'><img src='images/de_darts.png' width="160" height="160"></div>
+                <img src='images/de_darts.png' width="160" height="160" style="z-index:-1">
                 </div>
                 <script type="text/javascript">
                 function octo_start() {
-                document.getElementById('meta_ens_image').style.opacity = "1";
+                document.getElementById('de_darts_image').style.opacity = "1";
                 }
                 function octo_stop() {
-                document.getElementById('meta_ens_image').style.opacity = "0";
+                document.getElementById('de_darts_image').style.opacity = "0";
                 }
                 // spirl_stop()
                 </script>
@@ -287,14 +287,14 @@
               <td width="75%" valign="top">
               <p>
               <p>                
-                <papertitle>Meta-ensemble learning with a multi-headed model for few-shot problems</papertitle>                
+                <papertitle>DE-DARTS: Neural architecture search with dynamic exploration</papertitle>                
                 <br>
-                <strong>Seokhyeon Ha</strong>, Youngseok Yoon, Jungwoo Lee<br>
+                Jiwoo Mun, <strong>Seokhyeon Ha</strong>, Jungwoo Lee<br>
                 <i>ICT Express</i>, 2023<br>
-                <a target="_blank" href ="https://www.sciencedirect.com/science/article/pii/S2405959522001345">paper</a> 
+                <a target="_blank" href ="https://www.sciencedirect.com/science/article/pii/S2405959522000613">paper</a> 
                 <br>
               </p>
-              <p>We propose a novel meta-ensemble learning approach based on a recent ensemble method: a multi-input multi-output (MIMO) configuration. Our approach is simply applied to existing meta-learning algorithms. Multiple subnetworks in a single model simultaneously learn multiple episodes and ensemble the predictions, leveraging the model capacity.</p>              
+              <p>To overcome the bias of the gradient-based search, we make the architecture dynamic during the search. This simple technique allows the gradient-based search to have an exploration effect. For effective exploration, we propose Dynamic Attention Networks (DANs) which change the neural architecture based on the input.</p>              
               <p>
               </p>
               </td>

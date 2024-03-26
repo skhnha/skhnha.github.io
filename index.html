@@ -167,6 +167,7 @@
     
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
     
+
             <tr  onmouseout="daft_start()" onmouseover="daft_start()">
               <td width="25%">
                 <div class="one">
@@ -199,5 +200,40 @@
               </p>
               </td>
             </tr>
+
+
+            <tr  onmouseout="mina_start()" onmouseover="mina_start()">
+              <td width="25%">
+                <div class="one">
+                <div class="two" id = 'mina_image'><img src='images/mina.jpg' width="160" height="160"></div>
+                <img src='images/mina.jpg' width="160" height="160" style="z-index:-1">
+                </div>
+                <script type="text/javascript">
+                function octo_start() {
+                document.getElementById('mina_image').style.opacity = "1";
+                }
+                function octo_stop() {
+                document.getElementById('mina_image').style.opacity = "0";
+                }
+                // spirl_stop()
+                </script>
+              </td>
+              <td width="75%" valign="top">
+              <p>
+              <p>                
+                <papertitle>MINA: Multi-Input Network Augmentation for Enhancing Tiny Deep Learning</papertitle>                
+                <br>
+                <strong>Seokhyeon Ha</strong>, Yeongmo Kim, Jungwoo Lee<br>
+                <i>AAAI</i>, 2024<br>
+                <a target="_blank" href ="https://ieeexplore.ieee.org/document/10262264">paper</a> 
+                <br>
+              </p>
+              <p>We propose a new method called Multi-Input Network Augmentation (MINA). MINA converts tiny neural networks into a multi-input configuration, allowing only the augmented model to receive more diverse inputs during training. Additionally, tiny neural network can be converted back into their original single-input configuration after training.</p>              
+              <p>
+              </p>
+              </td>
+            </tr>
+
+
 </body>
 </html>

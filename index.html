@@ -1,6 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-
+# refer to https://github.com/kpertsch/kpertsch.github.io/blob/master/index.html
 <head>
 	<!-- Global Site Tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112301535-1"></script>
@@ -167,36 +167,34 @@
     
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
     
-            <tr  onmouseout="droid_start()" onmouseover="droid_start()">
+            <tr  onmouseout="daft_start()" onmouseover="daft_start()">
               <td width="25%">
                 <div class="one">
-                <div class="two" id = 'droid_image'><img src='resources/droid.gif' width="160" height="160"></div>
-                <img src='resources/droid.jpeg' width="160" height="160" style="z-index:-1">
+                <div class="two" id = 'daft_image'><img src='resources/daft.jpg' width="160" height="160"></div>
+                <img src='images/daft.jpg' width="160" height="160" style="z-index:-1">
                 </div>
                 <script type="text/javascript">
                 function octo_start() {
-                document.getElementById('droid_image').style.opacity = "1";
+                document.getElementById('daft_image').style.opacity = "1";
                 }
                 function octo_stop() {
-                document.getElementById('droid_image').style.opacity = "0";
+                document.getElementById('daft_image').style.opacity = "0";
                 }
                 // spirl_stop()
                 </script>
               </td>
               <td width="75%" valign="top">
               <p>
-              <p>
-                <a target="_blank" href="https://droid-dataset.github.io/">
-                <papertitle>DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset</papertitle>
-                </a>
+              <p>                
+                <papertitle>Domain-Aware Fine-Tuning: Enhancing Neural Network Adaptability</papertitle>                
                 <br>
-                <a target="_blank" href="https://www.linkedin.com/in/alexander-khazatsky-b98841149">Alexander Khazatsky</a>*, <strong>Karl Pertsch</strong>*, <a target="_blank" href="https://suraj-nair-1.github.io/">Suraj Nair</a>, ..., <a target="_blank" href="https://www.linkedin.com/in/tkollar">Thomas Kollar</a>, <a target="_blank" href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>, <a target="_blank" href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a><br>
+                <strong>Seokhyeon Ha/strong>, Sunbeom Jung, Jungwoo Lee<br>
                 <i>ArXiV</i>, 2024<br>
-                <a target="_blank" href ="https://droid-dataset.github.io/">project page</a> / <a target="_blank" href ="https://arxiv.org/abs/2403.12945">paper</a>  / 
-                <a target="_blank" href ="https://gdroid-dataset.github.io/visualizer">dataset visualizer</a>
+                <a target="_blank" href ="https://arxiv.org/abs/2308.07728">paper</a>  / 
+                <a target="_blank" href ="https://github.com/skhnha/DAFT">code</a>
                 <br>
               </p>
-              <p> We introduce DROID, the most diverse robot manipulation dataset to date. It contains 76k demonstration trajectories or 350 hours of interaction data, collected across 564 scenes and 84 tasks by 50 data collectors in North America, Asia, and Europe over the course of 12 months. We demonstrate that training with DROID leads to policies with higher performance and improved generalization ability. We open source the full dataset, policy learning code, and a detailed guide for reproducing our robot hardware setup.</p>
+              <p>We propose Domain-Aware Fine-Tuning (DAFT), a novel approach that incorporates batch normalization conversion and the integration of linear probing and fine-tuning. Our batch normalization conversion method effectively mitigates feature distortion by reducing modifications to the neural network during fine-tuning. Additionally, we introduce the integration of linear probing and fine-tuning to optimize the head layer with gradual adaptation of the feature extractor. By leveraging batch normalization layers and integrating linear probing and fine-tuning, our DAFT significantly mitigates feature distortion and achieves improved model performance on both in-distribution and out-of-distribution datasets.</p>              
               <p>
               </p>
               </td>

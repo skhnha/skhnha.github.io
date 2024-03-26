@@ -300,5 +300,39 @@
               </td>
             </tr>
 
+            
+            <tr  onmouseout="radar_rnn_start()" onmouseover="radar_rnn_start()">
+              <td width="25%">
+                <div class="one">
+                <div class="two" id = 'radar_rnn_image'><img src='images/radar_rnn.png' width="160" height="160"></div>
+                <img src='images/radar_rnn.png' width="160" height="160" style="z-index:-1">
+                </div>
+                <script type="text/javascript">
+                function octo_start() {
+                document.getElementById('radar_rnn_image').style.opacity = "1";
+                }
+                function octo_stop() {
+                document.getElementById('radar_rnn_image').style.opacity = "0";
+                }
+                // spirl_stop()
+                </script>
+              </td>
+              <td width="75%" valign="top">
+              <p>
+              <p>                
+                <papertitle>Automotive radar signal interference mitigation using RNN with self attention</papertitle>                
+                <br>
+                Jiwoo Mun, <strong>Seokhyeon Ha</strong>, Jungwoo Lee<br>
+                <i>ICASSP</i>, 2020<br>
+                <a target="_blank" href ="https://www.sciencedirect.com/science/article/pii/S2405959522000613">paper</a> 
+                <br>
+              </p>
+              <p>We propose a new method using deep learning. We improve the performance of the existing deep learning algorithm using attention mechanism. We applied our algorithm to the OFDM radar environment as well as the existing frequency modulated continuous wave(FMCW) radar.</p>              
+              <p>
+              </p>
+              </td>
+            </tr>
+
+
 </body>
 </html>

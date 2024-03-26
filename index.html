@@ -171,8 +171,8 @@
             <tr  onmouseout="daft_start()" onmouseover="daft_start()">
               <td width="25%">
                 <div class="one">
-                <div class="two" id = 'daft_image'><img src='images/daft.jpg' width="160" height="160"></div>
-                <img src='images/daft.jpg' width="160" height="160" style="z-index:-1">
+                <div class="two" id = 'daft_image'><img src='images/daft.png' width="160" height="160"></div>
+                <img src='images/daft.png' width="160" height="160" style="z-index:-1">
                 </div>
                 <script type="text/javascript">
                 function octo_start() {
@@ -267,6 +267,38 @@
               </td>
             </tr>
 
+            
+            <tr  onmouseout="meta_ens_start()" onmouseover="meta_ens_start()">
+              <td width="25%">
+                <div class="one">
+                <div class="two" id = 'meta_ens_image'><img src='images/meta_ens.png' width="160" height="160"></div>
+                <img src='images/meta_ens.png' width="160" height="160" style="z-index:-1">
+                </div>
+                <script type="text/javascript">
+                function octo_start() {
+                document.getElementById('meta_ens_image').style.opacity = "1";
+                }
+                function octo_stop() {
+                document.getElementById('meta_ens_image').style.opacity = "0";
+                }
+                // spirl_stop()
+                </script>
+              </td>
+              <td width="75%" valign="top">
+              <p>
+              <p>                
+                <papertitle>Meta-ensemble learning with a multi-headed model for few-shot problems</papertitle>                
+                <br>
+                <strong>Seokhyeon Ha</strong>, Youngseok Yoon, Jungwoo Lee<br>
+                <i>ICT Express</i>, 2023<br>
+                <a target="_blank" href ="https://www.sciencedirect.com/science/article/pii/S2405959522001345">paper</a> 
+                <br>
+              </p>
+              <p>We propose a novel meta-ensemble learning approach based on a recent ensemble method: a multi-input multi-output (MIMO) configuration. Our approach is simply applied to existing meta-learning algorithms. Multiple subnetworks in a single model simultaneously learn multiple episodes and ensemble the predictions, leveraging the model capacity.</p>              
+              <p>
+              </p>
+              </td>
+            </tr>
 
 </body>
 </html>
